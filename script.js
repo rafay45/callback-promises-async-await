@@ -170,5 +170,30 @@
 //     return functionGetData(3)
 // }).then((res) => {
 //     console.log(res);
-    
 // })
+
+// Async Await
+
+// function allDatta(data) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log("Data", data);
+//             resolve("sucess")
+//         }, 3000);
+//     })
+// }
+
+// async function asyncFunction(res) {
+//     console.log("fetching Data one...");
+//     await allDatta(1)
+//     console.log("fetching Data Two...");
+//     await allDatta(2)
+//     console.log("fetching Data Three...");
+//     await allDatta(3)
+//     console.log("fetching Data Four...");
+//     await allDatta(4)
+//     console.log("fetching Data Five...");
+//     await allDatta(5)
+//     console.log(res);
+// }
+// asyncFunction("sucess")
